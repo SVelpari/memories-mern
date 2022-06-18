@@ -3,7 +3,7 @@ import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/posts'
 
-import memories from '../src/images/memories.png';
+import memories from '../src/images/m-logo.png';
 
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
@@ -23,8 +23,8 @@ const App = () =>  {
    <Container maxWidth='lg'>
      
      <AppBar className = {classes.appBar} position='static' color='inherit'>
-       <Typography className={classes.heading} variant='h2' align='center'>Memories</Typography>
        <img src={memories} className={classes.image} alt='memories' height='60' />
+       <Typography className={classes.heading} variant='h3' align='center'>emorybook</Typography>
      </AppBar>
 
      <Grow in>

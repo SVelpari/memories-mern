@@ -6,11 +6,13 @@ export default makeStyles((theme) => ({
     margin: '30px 0',
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'center',
+    //justifyContent: 'center',
     alignItems: 'center',
+    boxShadow: 'none',
   },
   heading: {
-    color: 'rgba(0,183,255, 1)',
+    // color: 'rgba(0,183,255, 1)',
+    color: '#347bd4',
   },
   image: {
     marginLeft: '15px',
